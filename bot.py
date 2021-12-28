@@ -27,6 +27,7 @@ def cmd(update, context):
         command = True
         update.message.reply_text("Command mode ON")
     else:
+        command = False
         update.message.reply_text("Command mode OFF")
 
 
